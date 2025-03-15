@@ -89,6 +89,16 @@ router.post('/', async (req, res) => {
          res.json(res.player)
      })
 
+     router.put('/:id', getPlayer, async(req,res) => {
+        try{
+            const player = res.player
+        }
+        catch (error) {
+
+        }
+        res.json(res.player)
+    })
+
 
 
 export default router
